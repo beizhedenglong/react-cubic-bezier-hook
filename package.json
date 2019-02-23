@@ -41,6 +41,7 @@
     "react": "^16.8.0"
   },
   "dependencies": {
-    "bezier-easing": "^2.1.0"
+    "bezier-easing": "^2.1.0",
+    "react-spring": "^8.0.7"
   }
 }
