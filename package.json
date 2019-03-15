@@ -7,6 +7,7 @@
   "source": "src/index.js",
   "license": "MIT",
   "scripts": {
+    "example": "parcel ./example/index.html",
     "build": "microbundle -o dist/ --sourcemap false --compress false",
     "dev": "microbundle watch -o dist/ --sourcemap false --compress false",
     "test": "jest --coverage --config=jest.config.js",
@@ -35,13 +36,13 @@
     "react": "^16.8.2",
     "react-dom": "^16.8.2",
     "react-testing-library": "^5.9.0",
-    "regenerator-runtime": "^0.13.1"
+    "regenerator-runtime": "^0.13.1",
+    "react-spring": "^8.0.7"
   },
   "peerDependencies": {
     "react": "^16.8.0"
   },
   "dependencies": {
-    "bezier-easing": "^2.1.0",
-    "react-spring": "^8.0.7"
+    "bezier-easing": "^2.1.0"
   }
 }
