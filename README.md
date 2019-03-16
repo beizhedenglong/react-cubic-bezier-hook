@@ -1,4 +1,5 @@
-React Bezier Hook
+# React Bezier Hook
+
 https://beizhedenglong.github.io/react-cubic-bezier-hook/
 
 ## Installation
