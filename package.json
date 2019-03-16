@@ -8,7 +8,7 @@
   "license": "MIT",
   "scripts": {
     "example": "parcel ./example/index.html",
-    "pages": "parcel build ./example/index.html --out-dir ./",
+    "pages": "parcel build ./example/index.html --out-dir ./ --public-url ./",
     "build": "microbundle -o dist/ --sourcemap false --compress false",
     "dev": "microbundle watch -o dist/ --sourcemap false --compress false",
     "test": "jest --coverage --config=jest.config.js",

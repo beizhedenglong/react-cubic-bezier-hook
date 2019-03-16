@@ -20,4 +20,4 @@ var r=4,n=.001,t=1e-7,u=10,e=11,o=1/(e-1),f="function"==typeof Float32Array;func
 },{"react":"1n8/","bezier-easing":"kHgp"}],"Focm":[function(require,module,exports) {
 "use strict";var e=a(require("react")),r=a(require("react-dom")),t=require("../src/index");function a(e){return e&&e.__esModule?e:{default:e}}var n=function(){var r=(0,t.useChain)({hook:t.useEasing,args:[500]},{hook:t.useLiner,args:[1e3]},{hook:t.useEaseIn,args:[200]},{hook:t.useEaseInOut,args:[300]},{hook:t.useEasing,args:[400]},{hook:t.useLiner,args:[2e3]}),a=["pink","yellow","blue","grey"];return r.map(function(r,t){var n=r.percent;return e.default.createElement("div",{key:t,style:{position:"relative",left:500*n,width:100,height:100,background:a[t%4]}})})};r.default.render(e.default.createElement("div",null,e.default.createElement(n,null)),document.getElementById("app"));
 },{"react":"1n8/","react-dom":"NKHc","../src/index":"2u/B"}]},{},["Focm"], null)
-//# sourceMappingURL=/example.b6f293e0.map
+//# sourceMappingURL=example.b6f293e0.map
